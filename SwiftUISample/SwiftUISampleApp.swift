@@ -8,10 +8,13 @@
 import SwiftUI
 
 @main
-struct SwiftUISampleApp: App {
+struct LoginApp: App {
+    @StateObject var loginViewModel = LoginViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            TextSamples()
+            LoginView(viewModel: loginViewModel)
         }
     }
 }

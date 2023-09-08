@@ -14,6 +14,11 @@
 		0F1171D32AAB6017005F1178 /* SwiftUISampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1171D22AAB6017005F1178 /* SwiftUISampleTests.swift */; };
 		0F1171DD2AAB6017005F1178 /* SwiftUISampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1171DC2AAB6017005F1178 /* SwiftUISampleUITests.swift */; };
 		0F1171DF2AAB6017005F1178 /* SwiftUISampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1171DE2AAB6017005F1178 /* SwiftUISampleUITestsLaunchTests.swift */; };
+		0F1171ED2AAB603E005F1178 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1171EC2AAB603E005F1178 /* LoginViewModel.swift */; };
+		0F1171EF2AAB6080005F1178 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1171EE2AAB6080005F1178 /* LoginService.swift */; };
+		0F1171F12AAB60FE005F1178 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1171F02AAB60FD005F1178 /* LoginView.swift */; };
+		0F1171F32AAB65B3005F1178 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1171F22AAB65B3005F1178 /* PrimaryButton.swift */; };
+		0F1171F52AAB6883005F1178 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1171F42AAB6883005F1178 /* CustomTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		0F1171D82AAB6017005F1178 /* SwiftUISampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUISampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F1171DC2AAB6017005F1178 /* SwiftUISampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISampleUITests.swift; sourceTree = "<group>"; };
 		0F1171DE2AAB6017005F1178 /* SwiftUISampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0F1171EC2AAB603E005F1178 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		0F1171EE2AAB6080005F1178 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		0F1171F02AAB60FD005F1178 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		0F1171F22AAB65B3005F1178 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		0F1171F42AAB6883005F1178 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +104,7 @@
 		0F1171C02AAB6014005F1178 /* SwiftUISample */ = {
 			isa = PBXGroup;
 			children = (
+				0F1171EB2AAB602D005F1178 /* LoginSample */,
 				0F1171C12AAB6014005F1178 /* SwiftUISampleApp.swift */,
 				0F1171C32AAB6014005F1178 /* ContentView.swift */,
 				0F1171C52AAB6017005F1178 /* Assets.xcassets */,
@@ -125,6 +136,18 @@
 				0F1171DE2AAB6017005F1178 /* SwiftUISampleUITestsLaunchTests.swift */,
 			);
 			path = SwiftUISampleUITests;
+			sourceTree = "<group>";
+		};
+		0F1171EB2AAB602D005F1178 /* LoginSample */ = {
+			isa = PBXGroup;
+			children = (
+				0F1171EC2AAB603E005F1178 /* LoginViewModel.swift */,
+				0F1171EE2AAB6080005F1178 /* LoginService.swift */,
+				0F1171F02AAB60FD005F1178 /* LoginView.swift */,
+				0F1171F22AAB65B3005F1178 /* PrimaryButton.swift */,
+				0F1171F42AAB6883005F1178 /* CustomTextField.swift */,
+			);
+			path = LoginSample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +280,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F1171F52AAB6883005F1178 /* CustomTextField.swift in Sources */,
+				0F1171F32AAB65B3005F1178 /* PrimaryButton.swift in Sources */,
 				0F1171C42AAB6014005F1178 /* ContentView.swift in Sources */,
 				0F1171C22AAB6014005F1178 /* SwiftUISampleApp.swift in Sources */,
+				0F1171ED2AAB603E005F1178 /* LoginViewModel.swift in Sources */,
+				0F1171F12AAB60FE005F1178 /* LoginView.swift in Sources */,
+				0F1171EF2AAB6080005F1178 /* LoginService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
